@@ -19,7 +19,7 @@ Background image should be light color college building
 
 
 
-ASSIGNMENT-02 FOR 21-03-2022
+ASSIGNMENT-03 FOR 21-03-2022
 ----------------------------
 1.  Write a HTML script to capture the login credentials from the user
 2.  Write a HTML script to scroll up the text within the artical section of the page
