@@ -1,0 +1,5 @@
+LightSalmon-#ffa07
+Indigo-#4B0082
+Misty Rose-#ffe4e1
+PapayaWhip-#FFEFD5
+Thistle-#D8BFD8
