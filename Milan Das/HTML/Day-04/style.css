@@ -1,0 +1,16 @@
+.common3 {
+    background-color:violet;
+    color:pink;
+    font-family:Arial;
+    font-size:30;
+    font-style:italic bold;
+    text-align:center;
+}
+.common4 {
+    background-color:black;
+    color:red;
+    font-family:Arial;
+    font-size:35;
+    font-style:italic;
+    text-align:right;
+}

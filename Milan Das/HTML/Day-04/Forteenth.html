@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <title>INLINE CSS</title>
+        <style>
+            h1 {
+                background-color:lightGray;
+                color:red;
+                font-family:Times New Roman;
+            }
+            h1.second {
+                background-color:pink;
+                color:blue;
+                font-family:Calibri;
+                font-size:25;
+                font-style: bold;
+            }
+            h1.third {
+                background-color:lime;
+                color:magenta;
+                font-family:Arial;
+                font-size:25;
+                font-style: bold;
+            }
+            .common:hover {
+                background-color:MistyRose;
+                color:MediumBlue;
+                font-family:Arial;
+                font-size:25;
+                font-style:italic;
+            }
+            .common2 {
+                background-color:MistyRose;
+                color:MediumBlue;
+                font-family:Arial;
+                font-size:25;
+                font-style:italic;
+                text-align:center;
+            }
+        </style>
+    </head>
+    <body>
+        <br><br>
+        <h1 style="background-color:blue;color:yellow;font-family:Arial;">This is a text to style</h1>
+        <br><br>
+        <h1 style="background-color:blue;color:yellow;font-family:Arial;">When the CSS properties are given in the STYLE attribute of any element, it is INLINE CSS</h1>
+        <br><br>
+        <h1>This line uses the internal CSS properties</h1>
+        <br><br>
+        <h1 class="second">This line uses the internal CSS properties</h1>
+        <br><br>
+        <h1 class="third">This line uses the internal CSS properties</h1>
+        <br><br>
+        <input class="common" type="text" name="name">
+        <br><br>
+        <marquee class="common2">Scrolling Text</marquee>
+        <br><br>
+        <h1 class="common2">Scrolling Text</h1>
+        <br><br>
+    </body>
+</html>
