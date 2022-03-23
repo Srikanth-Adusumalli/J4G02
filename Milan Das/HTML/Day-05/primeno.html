@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>Find Prime Number between 1000 and 2000</title>
+    </head>
+    <body>
+        <br>
+        <script type="text/javascript">
+            var start = 1000;
+            var end = 2000;
+            var count = 0;
+            var yn;
+
+            document.writeln("<br>");
+            document.writeln("<h1 style='blue'>Prime number between 1000 and 2000</h1>");
+            document.writeln("<hr>");
+            document.writeln("<table border='1' cellspacing='10' cellpading='10'>");
+            document.writeln("<tr>");
+
+            for(var i=start; i<=end; i++) {
+                yn = true;
+                for(var j=2; j<i; j++) {
+                    if(i%j==0) {
+                        yn = false;
+                        break;
+                    }
+                }
+                if(yn) {
+                    document.writeln("<td>"+i+"</td>");
+                    count++;
+                    if(count==15) {
+                        document.writeln("</tr>");
+                        document.writeln("<tr>");
+                        count = 0;
+                    }
+                }
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>Diamond shape of Astericks</title>
+        <!-- 
+                       *
+                      ***
+                     *****
+                    *******
+                   *********
+                  ***********
+                 *************
+                ***************
+               *****************
+              *******************
+               *****************
+                ***************
+                 *************
+                   *********
+                    *******
+                     *****
+                      ***
+                       *
+        -->
+    </head>
+    <body>
+        <br>
+        <script type="text/javascript">
+            var stars = 1;
+            var spaces = 50;
+
+            document.writeln("<tt>");
+            for(var i=1; i<=19; i++) {
+                for(var j=1; j<=spaces; j++) document.write("&nbsp;");
+                for(var j=1; j<=stars; j++)  document.write("*");
+                if(i<=9) {
+                    stars += 2;
+                    spaces -= 1;
+                } else {
+                    stars -= 2;
+                    spaces += 1;
+                }
+                document.writeln("<br>");
+            }
+            document.writeln("</tt>");
+        </script>
+    </body>
+</html>
