@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <title></title>
+        <script>
+            function validate(formObj) {
+                // Validation of Candidate Name
+                // Alphabetic data validation
+                var textObj = formObj.candidate_name;
+                var stringVal = textObj.value;
+                var len = stringVal.length;
+                var c;
+                for(var i=0; i<len; i++) {
+                    c = stringVal.charCodeAt(i);
+                    if( (c<65 || c>90) && (c<97 || c>122) && c!=32 ) {
+                        alert("Name contains wrong data");
+                        return false;
+                    }
+                }
+
+
+                // Validation of Father Name
+                textObj = formObj.father_name;
+                stringVal = textObj.value;
+                for(var i=0; i<len; i++) {
+                    c = stringVal.charCodeAt(i);
+                    if( (c<65 || c>90) && (c<97 || c>122) && c!=32 ) {
+                        alert("Father's name contains wrong data");
+                        return false;
+                    }
+                }
+
+
+                // Validation of Gender
+                var radioObj = formObj.gender;
+                stringVal = radioObj.value;
+                alert(stringVal);
+                if(stringVal != "M" && stringVal != 70) {
+                    alert("Gender is not selected");
+                    return false;
+                }
+
+                return true;
+            }
+        </script>
+    </head>
+    <body>
+        <form action="https://www.google.co.in/" onSubmit="return validate(this);" method="post">
+            <h1 style="font-family:Arial; color:blue">Student Registration Form</h1>
+            <hr><br>
+            <table>
+                <tr>
+                    <td><label>Name of the Candidate: </label></td>
+                    <td><input type="text" name="candidate_name"></td>
+                </tr>
+                <tr>
+                    <td><label>Name of Father: </label></td>
+                    <td><input type="text" name="father_name"></td>
+                </tr>
+                <tr>
+                    <td><label>Gender [M/F]: </label></td>
+                    <td>
+                        <input type="radio" name="gender" value="M"> Male
+                        <input type="radio" name="gender" value="F"> Female
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Email ID: </label></td>
+                    <td><input type="email" name="email_id"></td>
+                </tr>
+            </table>
+            <br><br>
+            <input type="submit" value="Save">
+        </form>
+    </body>
+</html>
