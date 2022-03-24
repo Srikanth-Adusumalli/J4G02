@@ -1,0 +1,14 @@
+* {
+    padding: 2;
+    margin: 2;
+  }
+  .list {
+    text-align: center;
+    font-size: 45px;
+    background-color: rgb(240, 125, 125);
+  }
+  .tooltip {
+    border: 60px;
+    background-color: rgb(255, 0, 149);
+    text-align: center;
+  }
