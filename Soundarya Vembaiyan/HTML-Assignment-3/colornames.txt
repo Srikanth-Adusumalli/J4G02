@@ -1,0 +1,7 @@
+Hexa decimal combinations of  the Color names.
+
+a) LightSalmon - #ffa07a.
+b) Indigo - #4B0082.
+c) Misty Rose - #ffe4e1.
+d) PapayaWhip - #ffefd5.
+e) Thistle - #D8BFD8.

@@ -1,0 +1,23 @@
+HTML Tag Descriptions:
+  
+<html> - element represents the root of an HTML document.
+<body> - element represents the content of an HTML document. 
+<base> - element specifies the base URL to use for all relative URLs in a document. 
+<head> - element contains machine-readable information about the document like title, scripts, and style sheets.
+<main> - Defines the main content of a document.
+<article> - Defines an article in a document.
+<link> - element specifies relationships between the current document and an external resource, most commonly used to link to CSS.
+<meta> - element represents Metadata that cannot be represented by other HTML meta-related elements like base, link, script, style or title.
+<style> - element contains style information for a document. it contains CSS.
+<title>	- element defines the document's title that is shown in a Browser's title bar. It only contains text.
+<footer> - element represents a footer for its nearest sectioning content or sectioning root element, typically contains information about the author of the section, copyright data or links to related documents.
+<header> - element represents introductory content, typically a group of introduction or navigation aids, and contain some heading elements.
+<h1>, <h2>, <h3>, <h4>, <h5>, <h6> - elements represent six levels of section headings. <h1> is the highest section level and <h6> is the lowest.
+<nav> - element represents a section of a page whose purpose is to provide navigation links like menus, tables of contents, and indexes.
+<section> - element represents a section of a document, sections should always have a heading, with very few exceptions.
+<div> - element is the generic container for flow of content. 
+<hr> - element represents a  break between paragraph-level elements. 
+<li> - element is used to represent an item in a list. 
+<ul> - element represents an unordered list of items, typically rendered as a bulleted list.
+<ol> - element represents an ordered list of items, typically rendered as a numbered list.
+<time> - It defines a date/time.
