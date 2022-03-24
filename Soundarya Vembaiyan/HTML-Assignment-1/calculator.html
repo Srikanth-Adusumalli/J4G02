@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1
+{
+   margin:0;
+   padding:0;
+   color:#111;
+   font-size:4em;
+   
+}
+h1 span
+{
+    display:table-cell;
+    margin:0;
+    padding:0;
+    animation:animate 2s linear infinite;
+    text-align:center;
+}
+h1 span:nth-child(1)
+{
+    animation-delay:0s;
+}
+h1 span:nth-child(2)
+{
+    animation-delay:0.25s;
+}
+h1 span:nth-child(3)
+{
+    animation-delay:0.5s;
+}
+h1 span:nth-child(4)
+{
+    animation-delay:0.75s;
+}
+h1 span:nth-child(5)
+{
+    animation-delay:1s;
+}
+h1 span:nth-child(6)
+{
+    animation-delay:1.25s;
+}
+h1 span:nth-child(7)
+{
+     animation-delay:1.5s;
+}
+h1 span:nth-child(8)
+{
+    animation-delay:1.75s;
+}
+@keyframes animate
+{
+   0%,100%
+   {
+      color:#fff;
+      filter:blur(2px);
+      text-shadow:0 0 10px #00b3ff;
+                         0 0 20px #00b3ff,
+                         0 0 40px #00b3ff,
+                         0 0 80px #00b3ff,
+                         0 0 120px #00b3ff,
+                         0 0 200px #00b3ff,
+                         0 0 300px #00b3ff,
+                         0 0 400px #00b3ff;
+   }
+    5%,95%
+   {
+        color:green;
+        filter:blur(0px);
+        text-shadow:none;
+   } 
+}  
+body{
+	background:white;
+}
+*{
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+}
+.wrap{
+	width:500px;
+	margin:auto;
+	height:auto;
+	background:black;
+	padding:15px;
+}
+input[type=text]{
+	width:100%;
+	padding:10px;
+	font-size:22px;
+	font-weight:bold;
+	margin-top:20px;
+	border-radius:5px;
+}
+input[type=button]{
+	width:89px;
+	padding:10px;
+	font-size:22px;
+	font-weight:bold;
+	border-radius:5px;
+}
+#del{
+	width:100%;
+}
+</style>	
+</head>
+<body>
+
+<center style=" font-family:TimesNewRoman; font-size:50px;">CALCULATOR FORM</center><br><br>
+
+<div class="wrap">
+
+<center style=" font-family:TimesNewRoman; font-size:30px; color:red">CALCULATOR</font></center><br><br>
+<form name="cal">
+<input type="text" name="display">
+<br><br>
+<input type="button" value="9" onclick="cal.display.value+='9'">
+<input type="button" value="8" onclick="cal.display.value+='8'">
+<input type="button" value="7" onclick="cal.display.value+='7'">
+<input type="button" value="+" onclick="cal.display.value+='+'">
+<br><br>
+<input type="button" value="6" onclick="cal.display.value+='6'">
+<input type="button" value="5" onclick="cal.display.value+='5'">
+<input type="button" value="4" onclick="cal.display.value+='4'">
+<input type="button" value="-" onclick="cal.display.value+='-'">
+<br><br>
+<input type="button" value="3" onclick="cal.display.value+='3'">
+<input type="button" value="2" onclick="cal.display.value+='2'">
+<input type="button" value="1" onclick="cal.display.value+='1'">
+<input type="button" value="*" onclick="cal.display.value+='*'">
+<br><br>
+<input type="button" value="0" onclick="cal.display.value+='0'">
+<input type="button" value="/" onclick="cal.display.value+='/'">
+<input type="button" value="%" onclick="cal.display.value+='%'">
+<input type="button" value="=" onclick="cal.display.value=eval(cal.display.value)">
+<br><br>
+<input type="button" value="DELETE" onclick="cal.display.value=''" id="del">
+</form>
+</div>
+<br>
+
+
+</fieldset>
+</body>
+</html>
