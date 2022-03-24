@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>Palindrome Piramid of Astericks</title>
+        
+    </head>
+    <body>
+        <br>
+        <script type="text/javascript"> 
+            var n = 9;
+            document.writeln("<tt>");
+            for(var i=1; i<=n; i++) {
+                for(var j=1; j<=n-i;j++) {
+                    document.write("&nbsp;");
+
+                }
+                for(var k =1;k<=i;k++ ){
+                    document.write(k);
+                }
+                for(var l = i-1;l>=1;l--){
+                    document.write(l);
+                }
+                document.write("\n");
+                document.writeln("<br>");
+
+            }
+            
+              
+            document.writeln("</tt>");
+        </script>
+    </body>
+</html>
