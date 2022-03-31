@@ -1,0 +1,10 @@
++------+---------+-----------+--------------+
+| Sno  | name    | userid    | Userpassword |
++------+---------+-----------+--------------+
+|    1 | shoaib  | shoaib01  | shoaib101    |
+|    2 | akhila  | akhila02  | akhila102    |
+|    3 | triveni | triveni03 | triveni103   |
+|    4 | bikesh  | triveni04 | triveni104   |
+|    5 | subham  | triveni05 | triveni105   |
++------+---------+-----------+--------------+
+5 rows in set (0.00 sec)

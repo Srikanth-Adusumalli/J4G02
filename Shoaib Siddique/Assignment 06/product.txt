@@ -1,0 +1,14 @@
++-----------+-------------+--------------+-----------------+
+| productid | productname | productprice | productcategory |
++-----------+-------------+--------------+-----------------+
+| P101      | nokia       |         2000 | electronic      |
+| P102      | samsung     |         2500 | electronic      |
+| P103      | vivo        |         5500 | electronic      |
+| P104      | shaver      |          500 | utility         |
+| P105      | dumble      |         9500 | gym essesories  |
+| P106      | mixer       |         1500 | house hold      |
+| P107      | wheel       |         6500 | car accesories  |
+| P108      | shirt       |         1400 | garment         |
+| P109      | shoe        |         3100 | garment         |
++-----------+-------------+--------------+-----------------+
+9 rows in set (0.01 sec)
