@@ -8,7 +8,7 @@ public class Bankaccount {
 		super();
 		this.accountid = accountid;
 		this.accountname = accountname;
-		][lm this.accountbalance = accountbalance;
+		 this.accountbalance = accountbalance;
 		
 	}
 	
